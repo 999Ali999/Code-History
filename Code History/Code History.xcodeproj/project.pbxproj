@@ -10,10 +10,13 @@
 		3C037A532B5C20D500E591BD /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C037A522B5C20D500E591BD /* Question.swift */; };
 		3C037A552B5C22F400E591BD /* ChoiceTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C037A542B5C22F400E591BD /* ChoiceTextView.swift */; };
 		3C0825D12B4B557A000FC7EC /* CodeHistoryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0825D02B4B557A000FC7EC /* CodeHistoryApp.swift */; };
-		3C0825D32B4B557A000FC7EC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0825D22B4B557A000FC7EC /* ContentView.swift */; };
+		3C0825D32B4B557A000FC7EC /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0825D22B4B557A000FC7EC /* GameView.swift */; };
 		3C0825D52B4B557B000FC7EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C0825D42B4B557B000FC7EC /* Assets.xcassets */; };
 		3C0825D82B4B557B000FC7EC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C0825D72B4B557B000FC7EC /* Preview Assets.xcassets */; };
 		3C5685DD2B6A56E4008F0B74 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5685DC2B6A56E4008F0B74 /* Game.swift */; };
+		3C6CFDD32B6B9B7100C7D505 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6CFDD22B6B9B7100C7D505 /* WelcomeView.swift */; };
+		3C6CFDD72B6B9E8100C7D505 /* GameColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6CFDD62B6B9E8100C7D505 /* GameColor.swift */; };
+		3C6CFDD92B6B9FD200C7D505 /* BottomTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6CFDD82B6B9FD200C7D505 /* BottomTextView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,10 +24,13 @@
 		3C037A542B5C22F400E591BD /* ChoiceTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoiceTextView.swift; sourceTree = "<group>"; };
 		3C0825CD2B4B557A000FC7EC /* Code History.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Code History.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C0825D02B4B557A000FC7EC /* CodeHistoryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeHistoryApp.swift; sourceTree = "<group>"; };
-		3C0825D22B4B557A000FC7EC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3C0825D22B4B557A000FC7EC /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
 		3C0825D42B4B557B000FC7EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3C0825D72B4B557B000FC7EC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3C5685DC2B6A56E4008F0B74 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		3C6CFDD22B6B9B7100C7D505 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		3C6CFDD62B6B9E8100C7D505 /* GameColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameColor.swift; sourceTree = "<group>"; };
+		3C6CFDD82B6B9FD200C7D505 /* BottomTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomTextView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,8 +92,11 @@
 		3C5685DF2B6A576F008F0B74 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				3C0825D22B4B557A000FC7EC /* ContentView.swift */,
+				3C0825D22B4B557A000FC7EC /* GameView.swift */,
 				3C037A542B5C22F400E591BD /* ChoiceTextView.swift */,
+				3C6CFDD22B6B9B7100C7D505 /* WelcomeView.swift */,
+				3C6CFDD62B6B9E8100C7D505 /* GameColor.swift */,
+				3C6CFDD82B6B9FD200C7D505 /* BottomTextView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -163,8 +172,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				3C037A532B5C20D500E591BD /* Question.swift in Sources */,
+				3C6CFDD32B6B9B7100C7D505 /* WelcomeView.swift in Sources */,
 				3C5685DD2B6A56E4008F0B74 /* Game.swift in Sources */,
-				3C0825D32B4B557A000FC7EC /* ContentView.swift in Sources */,
+				3C0825D32B4B557A000FC7EC /* GameView.swift in Sources */,
+				3C6CFDD92B6B9FD200C7D505 /* BottomTextView.swift in Sources */,
+				3C6CFDD72B6B9E8100C7D505 /* GameColor.swift in Sources */,
 				3C037A552B5C22F400E591BD /* ChoiceTextView.swift in Sources */,
 				3C0825D12B4B557A000FC7EC /* CodeHistoryApp.swift in Sources */,
 			);
