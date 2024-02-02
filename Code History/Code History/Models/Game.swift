@@ -14,7 +14,7 @@ struct Game {
     private var questions = Question.allQuestions.shuffled()
     
     mutating func makeGuessForCurrentQuestion(atIndex index: Int) {
-        //        guesses[currentQuestion] = index
+        guesses[currentQuestion] = index
     }
     
     mutating func updateGameStatus() {

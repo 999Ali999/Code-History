@@ -16,7 +16,7 @@ struct BottomTextView: View {
             Text(str)
                 .font(.title3)
                 .bold()
-                .padding(.top, 35)
+                .padding()
             Spacer()
         }
         .background(GameColor.accent)
